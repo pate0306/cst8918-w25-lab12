@@ -12,12 +12,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "backend_rg" {
-  name     = "veka0011-githubactions-rg"
+  name     = "pate0306-githubactions-rg"
   location = "East US"
 }
 
 resource "azurerm_storage_account" "backend_sa" {
-  name                     = "veka0011githubactions"
+  name                     = "pate0306githubactions"
   resource_group_name      = azurerm_resource_group.backend_rg.name
   location                 = azurerm_resource_group.backend_rg.location
   account_tier             = "Standard"
