@@ -1,6 +1,9 @@
 resource "azurerm_resource_group" "app_rg" {
   name     = "pate0306-a12-rg"
   location = "East US"
+  tags = {
+    environment = "prod"
+  }
 }
   
 resource "azurerm_virtual_network" "app_vnet" {
@@ -19,3 +22,4 @@ resource "azurerm_subnet" "app_subnet" {
   virtual_network_name = azurerm_virtual_network.app_vnet.name
   address_prefixes     = ["10.0.1.0/24"]
 }
+
