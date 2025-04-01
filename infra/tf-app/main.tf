@@ -2,10 +2,10 @@ resource "azurerm_resource_group" "app_rg" {
   name     = "pate0306-a12-rg"
   location = "East US"
   tags = {
-    environment = "prod"
+    environment = "test"
   }
 }
-  
+
 resource "azurerm_virtual_network" "app_vnet" {
   name                = "pate0306-a12-vnet"
   address_space       = ["10.0.0.0/16"]
