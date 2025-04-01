@@ -1,11 +1,11 @@
 # cst8918-w25-lab12
 
 ## Team Member Details
-1) Dhruv Parmar 
+**1) Dhruv Parmar** 
 
 Github ID: dhruv-13
 
-2) Parth Patel
+**2) Parth Patel**
 
 Github ID: pate0306
 
