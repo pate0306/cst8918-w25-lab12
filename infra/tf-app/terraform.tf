@@ -10,7 +10,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "pate0306-githubactions-rg"
-    storage_account_name = "pate0306githubactions"
+    storage_account_name = "parm0100githubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
     use_oidc             = true
