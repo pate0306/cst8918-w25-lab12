@@ -1,5 +1,5 @@
 name: Terraform CI-CD
-## file
+## files
 on:
   push:
     branches: [ main ]
